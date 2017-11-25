@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: 안녕하세요. '사자의 심장을 가진 developer'를 꿈꾸는 초보개발자 이지연입니다. 환영해요XD  # Describe yourself.
+  desc: 안녕하세요. '사자의 심장을 가진 developer'를 꿈꾸는 초보개발자입니다. 환영해요XD  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
