@@ -1,3 +1,5 @@
+
+
 ------
 
 **상속(Inheritance)** 이란 부모가 자식에게 물려주는 행위를 말한다.
@@ -23,9 +25,9 @@
   - 일반적으로 부모 클래스의 **public 메소드** 가 상속대상이 된다.
   - 보통 **public, protected 멤버만 상속** 된다.
   - 제외대상 
-    1. private 접근 제한을 갖는 멤버
-    2. 생성자
-    3. 부모클래스와 자식 클래스가 다른 패키지에 존재할 때 부모 클래스의 default 접근 제한을 갖는 멤버
+    1. **private 접근 제한** 을 갖는 멤버
+    2. **생성자**
+    3. **부모클래스와 자식 클래스가 다른 패키지에 존재할 때 부모 클래스의 default 접근 제한을 갖는 멤버**
 
   <br />
 
@@ -58,7 +60,7 @@ public class SuperClass{ //
 ```java
 public class Main{
   public static void main(String[] args){
-    SubClass sub = new SubClass(); //자식 클래스의 객체 생성 : 부모 객체도 같이 생성된다.
+    SubClass sub = new SubClass(); //자식 클래스의 객체 생성 : 상속 받은 부모 객체도 같이 생성된다.
     
    	System.out.println(sub.toString()); //SubClass에 toString()가 명시적으로 선언되어 있지 않지만 Object 클래스에서 상속받았기 때문에 사용가능.
     //자식클래스의 객체가 가지는 instance 멤버 확인 : dot(.)
@@ -70,3 +72,6 @@ public class Main{
 }
 ```
 
+<결과>
+
+![상속결과](./_posts/img/inheritance_result.jpg)
