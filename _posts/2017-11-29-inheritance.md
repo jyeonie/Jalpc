@@ -74,4 +74,4 @@ public class Main{
 
 <결과>
 
-![상속결과](./_posts/img/inheritance_result.jpg)
+![상속결과](https://github.com/jyeonie/jyeonie.github.io/blob/master/_posts/img/inheritance_result.jpg)
