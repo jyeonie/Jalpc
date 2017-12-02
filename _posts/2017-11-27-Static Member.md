@@ -154,3 +154,36 @@ publci class Main{
 <br />
 
 <br />
+
+# 3. 주의할 점
+
+객체가 없어도 실행되기 때문에, 정적 메소드나 정적 블록을 선언할 때 내부에 인스턴스 필드나 인스턴스 메소드를 사용할 수 없다.
+
+객체 자신의 참조인 this키워드도 사용이 불가능하다.
+
+정적 메소드와 정적 블록에서 인스턴스 멤버를 사용하고 싶다면 객체를 먼저 생성하고 참조 변수로 접근해야 한다.
+
+```java
+public class Car{
+  int speed; //인스턴스 필드
+  void run() { //인스턴스 메소드
+  }
+}
+```
+
+```java
+public class Main{
+public static void main(String][] args){
+    speed = 60; //실행안됨. 컴파일 에러
+    run(); //실행안됨. 컴파일 에러
+  
+  	Car myCar = new Car(); //객체 생성
+  	myCar.speed = 60; //실행가능.
+  	myCar.run(); //실행가능.
+  }
+}
+```
+
+<br />
+
+<br />
