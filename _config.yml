@@ -1,7 +1,7 @@
 ﻿# Welcome to Jekyll!
 
 # Website settings
-title: Jenna
+title: "Jenna"
 description: Jenna's blog,use Jekyll and github pages.
 keywords: Jyeonie,Jenna,blog,Jekyll,github,gh-pages
 baseurl: # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: "사자의 심장을 가져라!" 제나라에 오신것을 환영해요XD  # Describe yourself.
+  desc: 사자의 심장을 가져라! 환영해요XD  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
