@@ -11,8 +11,8 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Jenna  # Be used at blog posts' author.
-  first_name: Jiyeon  # Be used at index page about me section.
+  name: Jenna # Be used at blog posts' author.
+  first_name: Jenna  # Be used at index page about me section.
   last_name: Lee  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: jyeonie  # Leave blank if you don't have now
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: 안녕하세요. 사자의 심장을 를 꿈꾸는 초보개발자입니다. 환영해요XD  # Describe yourself.
+  desc: "사자의 심장을 가져라!" 제나라에 오신것을 환영해요XD  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
