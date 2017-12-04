@@ -113,7 +113,7 @@ public class Sample{
 ```java
 publci class Main{
   public static void main(String[] args){
-    System.out.println(Math.PI); // 대표적인 static 필드인 상수 테스
+    System.out.println(Math.PI); // 대표적인 static 필드인 상수 테스트
     System.out.println(Math.random()); //* Math 클래스의 대표적인 static 메소드 테스트
     Sample.method(); //Sample클래스의 static 메소드 사용
   }
@@ -173,7 +173,7 @@ public class Car{
 
 ```java
 public class Main{
-public static void main(String][] args){
+public static void main(String[] args){
     speed = 60; //실행안됨. 컴파일 에러
     run(); //실행안됨. 컴파일 에러
   
