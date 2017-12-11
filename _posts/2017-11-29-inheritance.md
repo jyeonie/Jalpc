@@ -133,3 +133,5 @@ public class Main{
 
 ![result]({{ site.img_path }}/2017-11-29-inheritance/result.jpg)
 
+<img src="{{ site.img_path }}/2017-11-29-inheritance/result.jpg" width="75%">
+
