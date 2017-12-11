@@ -131,3 +131,5 @@ public class Main{
 
 <결과>
 
+![result]({{ site.img_path }}/2017-11-29-inheritance/result.jpg)
+
